@@ -14,7 +14,8 @@ public class Amazon_Automation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Set the chrome driver path
-				System.setProperty
+		System.out.println("Hello Every one");		
+		System.setProperty
 				("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
 				
 				//Calling the chromedriver and maximize the window
@@ -45,7 +46,7 @@ public class Amazon_Automation {
 				//Find all elements
 				List<WebElement> results = 
 			   driver.findElements(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
-			    //driver.findElements(By.cssSelector(".a-size-medium a-color-base a-text-normal"));
+			   //driver.findElements(By.cssSelector(".a-size-medium a-color-base a-text-normal"));
 			   // driver.findElements(By.className("a-size-medium a-color-base a-text-normal"));
 
 				
