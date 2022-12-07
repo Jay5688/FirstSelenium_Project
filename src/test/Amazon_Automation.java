@@ -63,6 +63,7 @@ public class Amazon_Automation {
 				driver.findElement(By.id("nav-logo-sprites")).click();
 				
 				//Close the browser
+				System.out.println("End of Program");
 				//driver.quit();
 				 
 				 
