@@ -10,7 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class MyFirstAutomationScript {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub	
+		System.out.println("Hello Team");
+
 		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
 		//System.setProperty("webdriver.edge.driver", "C:\\Drivers\\msedgedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "C:\\Drivers\\geckodriver.exe");
